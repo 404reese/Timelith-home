@@ -2,48 +2,55 @@ export const exploreWorlds = [
   {
     id: 'world-1',
     imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    title: 'Data Input',
+    paragraph: 'This is a brief description of Data Input world.',
   },
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    title: 'Scheduling Engine',
+    paragraph: 'This is a brief description of Data Input world.',
   },
   {
     id: 'world-3',
     imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    title: 'Rule-Based System',
+    paragraph: 'This is a brief description of Data Input world.',
   },
   {
     id: 'world-4',
     imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
+    title: 'Meet Minimum Criterion',
+    paragraph: 'This is a brief description of Data Input world.',
   },
   {
     id: 'world-5',
     imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    title: 'Timetable Generation',
+    paragraph: 'This is a brief description of Data Input world.',
   },
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Enters essential scheduling information into the system',
+  'Generates conflict-free timetables using algorithms',
+  'Enforces scheduling rules and constraints',
+  'Ensures timetables meet basic requirements',
+  'Produces the final schedule for use',
 ];
 
 export const newFeatures = [
   {
-    imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    imgUrl: '/algo-icon.png',
+    title: 'Enhanced Scheduling Algorithms',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        'Our latest update introduces advanced scheduling algorithms that significantly reduce conflicts and optimize resource allocation, ensuring a smoother and more efficient timetable creation process',
   },
   {
-    imgUrl: '/headset.svg',
-    title: 'More realistic',
+    imgUrl: '/Integration-icon.png',
+    title: 'Seamless Integration Capabilities',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        'We`ve improved our system`s ability to integrate with existing institutional software, allowing for a more cohesive and streamlined scheduling experience with better data synchronization and user convenience.',
   },
 ];
 

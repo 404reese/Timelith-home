@@ -16,25 +16,26 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="| About Metaversus" textStyles="text-center" />
+      <TypingText title="| About Timelith" textStyles="text-center" />
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold text-white">Metaverse</span> is a new
-        thing in the future, where you can enjoy the virtual world by feeling
-        like it's really real, you can feel what you feel in this metaverse
-        world, because this is really the{' '}
+        The <span className="font-extrabold text-white">Timelith Scheduler</span> is a specialized tool created to 
+        {' '}
         <span className="font-extrabold text-white">
-          madness of the metaverse
+        to improve the scheduling process 
         </span>{' '}
-        of today, using only{' '}
-        <span className="font-extrabold text-white">VR</span> devices you can
-        easily explore the metaverse world you want, turn your dreams into
-        reality. Let's{' '}
-        <span className="font-extrabold text-white">explore</span> the madness
-        of the metaverse by scrolling down
+        for educational institutions. It automates the generation of 
+timetables, addressing the common challenges of manual scheduling, such as {' '}
+<span className="font-extrabold text-white"> conflicts and 
+inefficiencies.</span>{' '} The system is designed to handle complex scheduling requirements by 
+considering factors like room availability, instructor schedules, and course constraints.{' '} <br></br>
+With a focus on simplicity, the Super Scheduler offers an intuitive interface that makes it easy for administrative staff to use. 
+It ensures that data is managed {' '}
+<span className="font-extrabold text-white"> securely and integrates smoothly </span>{' '} with existing institutional systems, allowing for a seamless transition and consistent data flow.
+        
       </motion.p>
 
       <motion.img

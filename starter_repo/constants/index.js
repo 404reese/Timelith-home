@@ -2,12 +2,13 @@ export const exploreWorlds = [
   {
     id: 'world-1',
     imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    title: 'Data Input',
+    paragraph: 'This is a brief description of Data Input world.',
   },
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    title: 'Scheduling Engine',
   },
   {
     id: 'world-3',
@@ -40,7 +41,7 @@ export const newFeatures = [
         'we have the latest update with new world for you to try never mind',
   },
   {
-    imgUrl: '/headset.svg',
+    imgUrl: '/wtt.png',
     title: 'More realistic',
     subtitle:
         'In the latest update, your eyes are narrow, making the world more realistic than ever',
