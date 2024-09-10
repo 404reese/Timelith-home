@@ -19,27 +19,24 @@ const Footer = () => (
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
           Try the Timelith Scheduler
         </h4>
-        <a href="https://timelith-app.vercel.app/">
-        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
+        <button
+          type="button"
+          className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]"
+        >
           <img
             src="/wtt.png"
             alt="headset"
             className="w-[24px] h-[24px] object-contain"
           />
-          
-          <span className="font-normal text-[16px] text-white">
-            Try Now !
-          </span> 
-        </button></a>
+          <span className="font-normal text-[16px] text-white">Try Now !</span>
+        </button>
       </div>
 
       <div className="flex flex-col">
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
 
         <div className="flex items-center justify-between flex-wrap gap-4">
-          <h4 className="font-extrabold text-[24px] text-white">
-            TIMELITH
-          </h4>
+          <h4 className="font-extrabold text-[24px] text-white">TIMELITH</h4>
           <p className="font-normal text-[14px] text-white opacity-50">
             © 2024 Timelith. Building community ❤
           </p>
