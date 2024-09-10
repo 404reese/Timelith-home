@@ -40,9 +40,22 @@ const GetStarted = () => (
               text={feature}
             />
           ))}
+           <a href="https://timelith-app.vercel.app/">
+    <button type="button" className="flex items-center h-fit py-6 px-8 bg-[#25618B] rounded-[32px] gap-[16px]">
+      <img
+        src="/wtt.png"
+        alt="headset"
+        className="w-[32px] h-[32px] object-contain"
+      />
+      <span className="font-normal text-[18px] text-white">
+        Try Now !
+      </span> 
+    </button>
+  </a>
         </div>
       </motion.div>
     </motion.div>
+    
   </section>
 );
 

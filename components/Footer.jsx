@@ -19,16 +19,18 @@ const Footer = () => (
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
           Try the Timelith Scheduler
         </h4>
+        <a href="https://timelith-app.vercel.app/">
         <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
           <img
             src="/wtt.png"
             alt="headset"
             className="w-[24px] h-[24px] object-contain"
           />
+          
           <span className="font-normal text-[16px] text-white">
             Try Now !
-          </span>
-        </button>
+          </span> 
+        </button></a>
       </div>
 
       <div className="flex flex-col">
