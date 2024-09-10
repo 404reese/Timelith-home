@@ -35,9 +35,9 @@ const Footer = () => (
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
 
         <div className="flex items-center justify-between flex-wrap gap-4">
-        <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white tracking-custom">
-        TIMELITH
-      </h2>
+          <h4 className="font-extrabold text-[24px] text-white">
+            TIMELITH
+          </h4>
           <p className="font-normal text-[14px] text-white opacity-50">
             © 2024 Timelift. Building community ❤
           </p>

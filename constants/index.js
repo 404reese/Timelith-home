@@ -1,31 +1,31 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
+    imgUrl: '/slide1.gif',
     title: 'Data Input',
     paragraph: 'This is a brief description of Data Input world.',
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.png',
+    imgUrl: '/slide2.gif',
     title: 'Scheduling Engine',
     paragraph: 'This is a brief description of Data Input world.',
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
+    imgUrl: '/slide3.gif',
     title: 'Rule-Based System',
     paragraph: 'This is a brief description of Data Input world.',
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.png',
+    imgUrl: '/slide4.gif',
     title: 'Meet Minimum Criterion',
     paragraph: 'This is a brief description of Data Input world.',
   },
   {
     id: 'world-5',
-    imgUrl: '/planet-05.png',
+    imgUrl: '/slide5.gif',
     title: 'Timetable Generation',
     paragraph: 'This is a brief description of Data Input world.',
   },

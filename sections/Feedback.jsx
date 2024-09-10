@@ -4,9 +4,18 @@ import { motion } from 'framer-motion';
 
 import styles from '../styles';
 import { fadeIn, staggerContainer, zoomIn } from '../utils/motion';
+import { TitleText, TypingText } from '../components';
 
 const Feedback = () => (
-  <section className={`${styles.paddings}`}>
+  <section className={`${styles.paddings} relative z-10`}>
+    
+    <motion.div
+        variants={fadeIn('right', 'tween', 0.2, 1)}
+        className="flex-[0.95] flex justify-center flex-col"
+      >
+        <TypingText title="| The Team" />
+        <TitleText title={<>The Team behind </>} />
+      </motion.div>
     <motion.div
       variants={staggerContainer}
       initial="hidden"

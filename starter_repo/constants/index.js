@@ -1,7 +1,7 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
+    imgUrl: '/planet-01.jpg',
     title: 'Data Input',
     paragraph: 'This is a brief description of Data Input world.',
   },
