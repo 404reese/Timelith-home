@@ -39,7 +39,7 @@ const Footer = () => (
             TIMELITH
           </h4>
           <p className="font-normal text-[14px] text-white opacity-50">
-            © 2024 Timelift. Building community ❤
+            © 2024 Timelith. Building community ❤
           </p>
 
           <div className="flex gap-4">
