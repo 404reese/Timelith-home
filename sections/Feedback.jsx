@@ -30,15 +30,15 @@ const Feedback = () => (
         <div className="feedback-gradient" />
         <div>
           <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
-            Arpit
+            Riddhesh
           </h4>
           <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
-            Founder Timelith
+            Frontend Lead
           </p>
         </div>
 
         <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
-          “Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus”
+          "We believe that innovation can solve some of education's biggest challenges. Timelith is our solution to streamlining scheduling, reducing administrative strain, and creating more efficient learning environments. We're proud to be part of a team that's driving positive change and making education effective"
         </p>
       </motion.div>
 
@@ -75,12 +75,12 @@ const Feedback = () => (
             Arpit
           </h4>
           <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
-            Founder Timelith
+            Backend Lead
           </p>
         </div>
 
         <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
-          “Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus”
+          "Our mission is simple: to transform education through technology. Timelith is designed to make scheduling smarter and more efficient, freeing up time and resources for what truly matters—empowering students and educators. We’re excited to be part of shaping the future of education."
         </p>
       </motion.div>
     </motion.div>

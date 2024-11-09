@@ -46,7 +46,7 @@ It ensures that data is managed {' '}
       />
     </motion.div>
     <div className="flex flex-col items-center justify-center">
-  <a href="https://timelith-app.vercel.app/">
+  <a href="#">
     <button type="button" className="flex items-center h-fit py-6 px-8 bg-[#25618B] rounded-[32px] gap-[16px]">
       <img
         src="/wtt.png"

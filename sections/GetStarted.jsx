@@ -40,7 +40,7 @@ const GetStarted = () => (
               text={feature}
             />
           ))}
-           <a href="https://timelith-app.vercel.app/">
+           <a href="#">
     <button type="button" className="flex items-center h-fit py-6 px-8 bg-[#25618B] rounded-[32px] gap-[16px]">
       <img
         src="/wtt.png"
